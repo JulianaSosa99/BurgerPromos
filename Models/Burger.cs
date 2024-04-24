@@ -6,9 +6,12 @@ namespace PrePrueba.Models
     {
         public int BurgerID { get; set; }
         [Required]
-        public string? Nombre {  get; set; }        
-        public bool ConQueso {  get; set; }
-        public decimal Precio { get; set; }   
+        public string? Nombre { get; set; }
+        public bool ConQueso { get; set; }
 
+        public decimal Precio { get; set; }
+        public List<Promo>? Promo { get; set; }
     }
+
 }
+

@@ -13,4 +13,7 @@ using PrePrueba.Models;
         }
 
         public DbSet<PrePrueba.Models.Burger> Burger { get; set; } = default!;
-    }
+        public DbSet<PrePrueba.Models.Promo> Promo { get; set; } = default!; //clase de contexto representa a la base de datos
+    //aca se añade a la nueva tabla
+
+}
