@@ -25,7 +25,7 @@ namespace PrePrueba.Models
             }
             else
             {
-                return base.IsValid(value);
+                return true;//cambio hecho
             }
 
             
